@@ -8,7 +8,6 @@ import java.awt.*;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Aufgabe 1.6 Zicklein implementiert
  */
 final class GoatKid extends Animal{
@@ -23,8 +22,6 @@ final class GoatKid extends Animal{
 //----Methoden
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * Wenn das Zicklein ein Alter von 3 Zeitschritte erreicht wird es zur Ziege
      */
     @Override
@@ -42,8 +39,6 @@ final class GoatKid extends Animal{
     }//act()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return toString vom Zicklein plus dessen Lebenzyklus
      */
     @Override

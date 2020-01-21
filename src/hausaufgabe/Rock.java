@@ -5,7 +5,6 @@ import gridworld.framework.actor.Actor;
 import java.awt.*;
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Stein implemenmtiert
  * Kopie aus gridworld Package
  */
@@ -45,8 +44,6 @@ class Rock extends Actor {
     }//act()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return toString vom Stein
      */
     @Override

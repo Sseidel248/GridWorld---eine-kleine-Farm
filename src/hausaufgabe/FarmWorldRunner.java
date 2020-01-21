@@ -7,7 +7,6 @@ import gridworld.framework.grid.Location;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  */
 
 public class FarmWorldRunner implements FarmWorldRunnerInterface {
@@ -62,7 +61,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }
 //--------------------------------------------------------------------------------------------------------------------//
     /**
-     * @ Sebastian Seidel
      * @param x for zeile
      * @param y for Spalte
      * @return a farmworld for actors
@@ -95,7 +93,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//IsLocationOk(...)
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return null und platziert ein Animal ins Grid
@@ -113,7 +110,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//addAnimalIfFieldEmpty(...)
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return null und platziert eine Goat ins Grid
@@ -131,7 +127,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//addGoatIfFieldEmpty(...)
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return null und platziert ein GoatKid ins Grid
@@ -149,7 +144,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//addGoatKidIfFieldEmpty(...)
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return null und platziert eine Farmer ins Grid
@@ -167,7 +161,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//addFarmerIfFieldEmpty
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return null und platziert ein CreatorFarmer ins Grid
@@ -185,7 +178,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//addCreatorFarmerIfFieldEmpty(...)
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return null und platziert eine MilkStorage ins Grid wenn es noch kein anderes gibt
@@ -208,7 +200,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//addMilkStorageIfFieldEmpty(...)
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return null und platziert GoatMilker ins Grid
@@ -226,7 +217,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//addGoatMilkerIfFieldEmpty(...)
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return null und platziert eine Flower ins Grid
@@ -244,7 +234,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//addFlowerIfFieldEmpty(...)
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return null platziert ein Rock ins grid
@@ -262,7 +251,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//addRockIfFieldEmpty(...)
 
     /**
-     * @ Sebastian Seidel
      * @param x for Row
      * @param y for Column
      * @return toString-Methode vom Actor auf dem Feld (x/y)
@@ -278,7 +266,6 @@ public class FarmWorldRunner implements FarmWorldRunnerInterface {
     }//getToStringOfActorInField
 
     /**
-     * @ Sebastian Seidel
      * lässt das Framework sprunghaft bis n Steps laufen (ohne Wartezeit)
      * Danach kann entweder manuell der Step oder Run Button gedrückt werden und die Simulation läuft weiter
      */

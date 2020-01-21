@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Aufgabe 1.1 Animal hat die Bewegung wie ein Bug
  * Aufgabe 1.7 Herdentrieb
  */
@@ -31,8 +30,6 @@ class Animal extends Actor {
 //------Getter und Setter
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return Alter von der Ziege
      */
     int getAge(){
@@ -40,8 +37,6 @@ class Animal extends Actor {
     }//getAge()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return gitb den Wert der größe der AnimalList als Integer zurück
      */
     int getAnimalListSize(){
@@ -50,8 +45,6 @@ class Animal extends Actor {
 
 //------Andere
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * gibt an wie sich das Animal zu verhalten hat
      * Wenn die AnimalList leer ist, ist der Ausdruck (!(animalList.isEmpty())) = false und das Bewegungsverhalten
      * ist wie ein normaler Bug
@@ -76,8 +69,6 @@ class Animal extends Actor {
     }//act()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * sammelt die ganzen Actors um die Location von diesem Animal ein
      * @return Array Liste mit die vorhandenen Actors
      */
@@ -86,8 +77,6 @@ class Animal extends Actor {
     }//getActors()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @param actors ist die Liste, welche mit getActors() erstellt wurde.
      * Diese Methode entfernt Actors aus der Liste, welche keine Ziegen oder Zicklein sind.
      * removeIf() Methode von ArrayList wird benutzt um alle Elemente a der Liste actors zu löschen wenn der Prädicat-Filter = true ist.
@@ -97,8 +86,6 @@ class Animal extends Actor {
     }//processActors(...)
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * turn() Methode wie beim Bug
      */
     void turn() {
@@ -106,8 +93,6 @@ class Animal extends Actor {
     }//turn()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * move() Methode wie beim Bug
      */
     void move() {
@@ -128,8 +113,6 @@ class Animal extends Actor {
     }//move()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * CanMove() Methode wie beim Bug
      */
     boolean canMove() {
@@ -147,8 +130,6 @@ class Animal extends Actor {
     }//canMove()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return toString von der Elternklasse und vom Animal mit seinem Alter
      */
     @Override

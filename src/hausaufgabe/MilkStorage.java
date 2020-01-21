@@ -6,7 +6,6 @@ import java.awt.*;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Aufgabe 1.5 Milchspeicher implemeniert
  */
 final class MilkStorage extends Actor {
@@ -24,7 +23,6 @@ final class MilkStorage extends Actor {
 //------Getter und Setter
 
     /**
-     * @author Sebastian Seidel
      * setzt die Anzahl der Milch im Speicher + 1
      */
     void setCountMilk(){
@@ -32,7 +30,6 @@ final class MilkStorage extends Actor {
     }//setCountMilk()
 
     /**
-     * @author Sebastian Seidel
      * @return Anzahl der Milch im Speicher
      */
     long getCountMilk(){
@@ -40,7 +37,6 @@ final class MilkStorage extends Actor {
     }//getCountMilk()
 
     /**
-     * @author Sebastian Seidel
      * @return Anzahl der MilchSpeicher
      */
     int getCountMilkStorage(){
@@ -49,7 +45,6 @@ final class MilkStorage extends Actor {
 
 //------Andere
     /**
-     * @author Sebastian Seidel
      * setzt den Milchspeicher countMilk = 0
      */
     public void resetMilkStorage(){
@@ -57,7 +52,6 @@ final class MilkStorage extends Actor {
     }//resetMilkStorage()
 
     /**
-     * @author Sebastian Seidel
      * @return Anzahl der Milch für ToString
      */
     @Override

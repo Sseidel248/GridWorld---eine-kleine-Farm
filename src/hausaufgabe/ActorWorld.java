@@ -9,7 +9,6 @@ import java.util.ArrayList;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Kopie aus gridworld Package
  */
 class ActorWorld extends World<Actor> {
@@ -33,7 +32,6 @@ class ActorWorld extends World<Actor> {
 //----Methoden
 
     /**
-     * @author Sebastian Seidel
      * zeigt DEFAULT_MESSAGE in der gelben MessageBox an
      */
     public void show() {
@@ -43,7 +41,6 @@ class ActorWorld extends World<Actor> {
     }//show()
 
     /**
-     * @author Sebastian Seidel
      * führt pro Aufruf einmal den alles aus, als wäre der Step Button gedrückt worden
      */
     @Override

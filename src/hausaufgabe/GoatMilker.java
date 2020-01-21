@@ -7,7 +7,6 @@ import java.util.ArrayList;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Aufgabe 1.5 Milchbauer implementiert
  */
 final class GoatMilker extends Farmer{
@@ -24,8 +23,6 @@ final class GoatMilker extends Farmer{
 //----Methoden
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * Bekommt alle actors in einer Liste, die um ihn herum sind, übergeben.
      * Entfernt die Blumen vom grid wie es der Farmer macht.
      * Wenn der Actor in der Liste eine Ziege ist und und er Milch produziert hat, dann wird die Ziege gemolken
@@ -50,8 +47,6 @@ final class GoatMilker extends Farmer{
     }//processActors(...)
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Mol
      * sammelt die Milch ein und übergibt sie dem mitgelieferten Milkstorage
      * @param milkStorage wird mit gesammelter Milch befüllt
      */
@@ -60,8 +55,6 @@ final class GoatMilker extends Farmer{
     }//MilkToMilkStorage(...)
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return toString vom Milchbauer
      */
     @Override

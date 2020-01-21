@@ -6,7 +6,6 @@ import java.awt.*;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Blumen Klasse implementiert
  * Kopie aus gridworld Package
  */
@@ -47,8 +46,6 @@ class Flower extends Actor {
     }//act()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return toString von der Blume
      */
     @Override

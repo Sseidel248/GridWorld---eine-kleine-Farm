@@ -9,7 +9,6 @@ import java.util.ArrayList;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Aufgabe 1.4 erstellen einer Schöpfer-Klasse welche eine Ziege in das Grid setzt, wenn alle Ziegen gestorben sind.
  */
 final class CreatorFarmer extends Farmer{
@@ -25,8 +24,6 @@ final class CreatorFarmer extends Farmer{
 //----Methoden
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * Bekommt die Liste mit allen Actors enthalten und prüft, ob innerhalb dieser Liste Goats enthalten sind.
      * Wenn ja dann steigt der goatCounter + 1 und der CreatorFarmer muss keine Goats erschaffen.
      * Wenn goatCounter = 0 dann erschafft der Schöpfer ein Goat neben sich
@@ -47,8 +44,6 @@ final class CreatorFarmer extends Farmer{
     }//processActors
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * bekommt eine Liste übergeben in dem die leeren Felder stehen.
      * für jedes Feld werden die If Abfragen geprüfen.
      * Wenn das Feld ok ist und der dortige Aktor gleich null ist, plaziere eine Ziege dorthin.
@@ -75,8 +70,6 @@ final class CreatorFarmer extends Farmer{
     }//putNewGoatOnFreePlace
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * prüft das gesamte Grid, vom dem CreaterFarmer +- getGrid().getNumRows() bzw. getGrid().getNumCols(), d.h.
      * unser Feld hier ist 20x20. Das heißt egal welche Position der CreatorFarmer hat er würde mit der abzutastenden Location
      * immer über den Grid rand kommen, das fängt aber isValid(tempLoc) ab. Damit ist gewährleistet das immer nur unser Gesamtes Grid
@@ -103,8 +96,6 @@ final class CreatorFarmer extends Farmer{
     }//getActors()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return toString vom Schöpfer
      */
     @Override

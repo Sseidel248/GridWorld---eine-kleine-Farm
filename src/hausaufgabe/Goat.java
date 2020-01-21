@@ -10,9 +10,8 @@ import java.util.LinkedList;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Aufgabe 1.2 Ziege implementiert
- * Ziege kann klettern
+ * Aufgabe 1.1 Ziege kann klettern
  */
 final class Goat extends Animal {
 //----Variablen
@@ -36,8 +35,6 @@ final class Goat extends Animal {
 //------Getter und Setter
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * timeStepX auf 0
      */
     void setTimeStepX(){
@@ -45,8 +42,6 @@ final class Goat extends Animal {
     }//setTimeStepX(...)
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return timeStepX
      */
     int getTimeStepX(){
@@ -54,8 +49,6 @@ final class Goat extends Animal {
     }//getTimeStepX()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * Setzen von false, da sie gerade vom GoatMilker gemolken wurde
      */
     void setMilkFromGoat(){
@@ -63,8 +56,6 @@ final class Goat extends Animal {
     }//setMilkFromGoat(...)
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * je nachdem wie viele Zeitschritte gemacht wurden, wurde der Boolean milkFromGoat angepasst
      * @return milkFromGoat true wenn Ziege Milch beinhaltet or false wenn die Ziege gemolken wurde
      */
@@ -74,8 +65,6 @@ final class Goat extends Animal {
 //------Andere
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * Ziege bewegt sich wie ein Animal
      * mit 16,666%iger Wahrscheinlichkeit wird eine weiteres GoatKid auf eine freie Fläche gesetzt
      * mit 20%iger Wahrscheinlich und wenn die Ziege älter als 15 Zeitschritte ist, stirbt Goat und hinterlässt eine Blume
@@ -121,8 +110,6 @@ final class Goat extends Animal {
     }//act()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * Wahrscheinlichkeit 1/5 und Lebenszyklus > 15, stirbt die Ziege und wird zur Blume
      * @param locFromActor Location von der Ziege die Stirbt
      * @param gridFromActor Grid in der sich die Ziege befindet
@@ -134,8 +121,6 @@ final class Goat extends Animal {
     }//GoatIsDied(...)
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * Ziege kann klettern und springt bei Rock als Hindernis auf frei liegendes Feld dahinter
      */
     private void jump(){
@@ -151,8 +136,6 @@ final class Goat extends Animal {
     }//jump()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * prüft ob die Ziege klettern und auf das frei liegendes Feld dahinter springen kann
      */
     private boolean canJump() {
@@ -197,8 +180,6 @@ final class Goat extends Animal {
     }//canJump()
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * bekommt eine Liste übergeben in dem die leeren Felder stehen.
      * für jedes Feld werden die If Abfragen geprüft.
      * Wenn das Feld ok ist und der dortige Aktor gleich null ist, plaziere ein Zicklein
@@ -225,8 +206,6 @@ final class Goat extends Animal {
     }//putNewAnimalOnFreePlace
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return toString von der Ziege inkl. Milch(ja Nein), Zeitschritte der Ziege und Lebenzyklus
      */
     @Override

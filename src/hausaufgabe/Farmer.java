@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 /**
  * @author Sebastian Seidel
- * @author Philipp Moll
  * Aufgabe 1.3 Blumenwirt der die Blumen einsammelt implementiert
  */
 class Farmer extends Critter {
@@ -22,8 +21,6 @@ class Farmer extends Critter {
 //----Methoden
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * Der Farmer räumt alle Blumen in seinem Umfeld weg
      */
     @Override
@@ -36,8 +33,6 @@ class Farmer extends Critter {
     }//processActors
 
     /**
-     * @author Sebastian Seidel
-     * @author Philipp Moll
      * @return toString vom Farmer
      */
     @Override
